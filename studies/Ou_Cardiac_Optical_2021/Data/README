@@ -1,0 +1,45 @@
+# Cardiac E-C Coupling Analysis*
+
+## Dataset Description
+- **Source:** Dual optical mapping (voltage/calcium) from mouse hearts
+- **Groups:** Sham (n=57) and TAC (n=51) recordings
+- **Frequencies:** 2, 4, 8, 16 Hz pacing
+- **Acquisition:** 250 Hz per channel, simultaneous dual-camera
+
+## Analysis Pipeline
+
+### 1. Timeseries Extraction
+- Channel 0 = Calcium (sharp transients)
+- Channel 1 = Voltage (plateau morphology)
+- ROI-averaged signals exported as NPY files
+
+### 2. Tier 1 Analysis
+- Phase-locking value (PLV) via Hilbert transform
+- E-C lag via cross-correlation (constrained ±T/2)
+- Beat-by-beat variability (CV)
+- Coupling gain (ΔCa/ΔV slope)
+- Kinetics (TTP, tau, APD, upstroke)
+
+### 3. Tier 2 Analysis
+- Band-limited PLV (2/4/8/16 Hz bands)
+- Hysteresis orientation (CCW vs CW)
+- Alternans detection (AI > 0.10)
+
+## Key Findings
+- PLV preserved across Sham/TAC (p=0.69)
+- Frequency effect on PLV (p=0.013)
+- Normal temporal sequence (Vm→Ca, >85% CCW)
+- U-shaped alternans pattern (8Hz stability window)
+- No disease effect on any E-C coupling metric
+
+## Files
+- `tier1_ABSOLUTE_FINAL.py` - Beat-level analysis
+- `tier2_FIXED.py` - Frequency-band analysis  
+- `extract_timeseries_CORRECTED.py` - Data extraction
+- `hysteresis_results_TIER1_enriched.csv` - Complete Tier 1 results
+- `hysteresis_results_TIER2_enriched.csv` - Complete Tier 2 results
+
+*Channel identity verification:
+Channel assignment was verified by signal morphology (Supplementary Figure S1). 
+Calcium transients exhibit sharp upstrokes with rapid decay (blue trace), while voltage signals show characteristic action potential plateaus (orange trace). 
+Initial channel labels from acquisition software were reversed and corrected prior to analysis."
