@@ -1,0 +1,5 @@
+Frequency_Hz,Sham_n,TAC_n,Sham_HW_mean,Sham_HW_std,TAC_HW_mean,TAC_HW_std,HW_p_value,HW_cohens_d,HW_significance,Sham_Lag_mean_ms,TAC_Lag_mean_ms,Lag_p_value,Lag_significance
+2,14,13,0.282,0.119,0.306,0.111,0.5926,-0.21,ns,98,407,0.0000,***
+4,14,12,0.295,0.124,0.310,0.103,0.7315,-0.14,ns,87,637,0.0482,*
+8,15,14,0.252,0.087,0.251,0.090,0.9840,0.01,ns,218,119,0.4788,ns
+16,14,12,0.216,0.051,0.220,0.056,0.8433,-0.08,ns,60,607,0.0382,*
