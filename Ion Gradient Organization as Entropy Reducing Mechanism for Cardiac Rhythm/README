@@ -1,0 +1,81 @@
+⚙️ Ion Gradient Organization as an Entropy-Reducing Mechanism for Cardiac Rhythm
+Purpose
+
+To show that cardiac ion pumps are not passive transporters but active information engines that convert chemical free energy (ΔG_ATP) into organized electrochemical order — the physical basis of biological negentropy and rhythmic stability.
+
+Key Problem
+
+Traditional thermodynamics views metabolism as dissipative: ATP → heat + work.
+Yet the heart performs only ~1.2 W of mechanical work from ~11 W total metabolic input.
+Where does the remaining ~9–10 W go?
+
+The paper quantifies that ≈ 3 W (61 %) is stored as structured electrochemical gradients, not lost — revealing an organizational efficiency that standard bioenergetics misses.
+
+--
+
+Methods & Framework
+
+Energy Accounting
+
+ATP synthesis ≈ 7.4 W (total chemical power).
+
+Ion pumps (Na⁺/K⁺-ATPase + SERCA) consume ≈ 4.9 W.
+
+Thermodynamic Modeling
+
+Work term: ΔG = z F (E_ion − V_m).
+
+Calculates actual gradient work for each major pump.
+
+Information Conversion
+
+Applies Landauer’s principle: each bit = kT ln 2 ≈ 2.96 × 10⁻²¹ J.
+
+Converts ΔG_ATP ( ≈ –55 kJ mol⁻¹ ) into information capacity.
+
+| Component     | Power In (W) | Organized (W) | Dissipated (W) | Efficiency (%) |
+| ------------- | ------------ | ------------- | -------------- | -------------- |
+| Na⁺/K⁺-ATPase | 1.8          | 1.54          | 0.26           | 86             |
+| SERCA         | 3.1          | 1.46          | 1.64           | 47             |
+| **Combined**  | 4.9          | **3.0**       | **1.9**        | **61 **        |
+
+
+Organizational Efficiency ≈ 61 % → 3 W preserved as ordered gradient energy.
+
+Information Flux: ≈ 1.7 × 10²¹ bits s⁻¹ (≈ 2 exabits s⁻¹) — ∼ 1000× a supercomputer’s bit-rate.
+
+Bits per ATP: 30.8 (derived from |ΔG_ATP| / kT ln 2).
+
+Mechanistic Insight
+
+Control variable: ΔG_ATP = ΔG°′ + RT ln([ATP]/[ADP][Pi]).
+
+Arrhythmia paradox resolved: During early ischemia, [ATP] ≈ 70–80 % normal but [Pi] ↑ → ΔG_ATP ↓ ≈ 16 % → loss of organization → rhythmic failure.
+
+Therefore rhythm stability tracks energy quality (ΔG_ATP), not quantity ([ATP]).
+
+Evolutionary & Computational Continuity
+
+Pump bistability mirrors prebiotic Fe-S autocatalytic systems — both operate as bistable, self-decoding chemical computers.
+
+The same fold-geometry (two stable states, hysteretic switching) governs information encoding from geochemistry → biology.
+
+Experimental Predictions
+
+η ∝ ΔG_ATP, not [ATP] → testable by ³¹P-NMR + calorimetry in Langendorff hearts.
+
+Information Flux declines linearly as ΔG_ATP drops below –50 kJ mol⁻¹ → arrhythmia onset.
+
+EM coupling restoration at 7.83 Hz should increase η and Δr (coherence).
+
+Implications
+
+Biological negentropy: Ion-pump networks are self-organizing engines storing over half of ATP energy as information-bearing order.
+
+Aging and disease: Loss of ΔG_ATP → information decay → coherence collapse → functional failure.
+
+Computational biology: Establishes the energy → information → organization chain that later papers expand into systemic synchronization.
+
+The heart is not just a pump — it is a real-time information engine.
+
+Cardiac ion gradients are the molecular substrate of coherence, transforming chemical potential into organized rhythmic information at near-Landauer efficiency.
