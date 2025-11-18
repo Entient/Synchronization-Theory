@@ -1,0 +1,47 @@
+
+=== Mixed Effects for plv_beat_mean ===
+ERROR: Singular matrix
+
+=== Mixed Effects for plv_beat_cv ===
+ERROR: Singular matrix
+
+=== Mixed Effects for lag_beat_mean ===
+ERROR: Singular matrix
+
+=== Mixed Effects for lag_beat_cv ===
+ERROR: Singular matrix
+
+=== Mixed Effects for ec_coupling_gain ===
+ERROR: Singular matrix
+
+=== Mixed Effects for ca_ttp_ms ===
+ERROR: Singular matrix
+
+=== Mixed Effects for ca_tau_ms ===
+ERROR: Singular matrix
+
+=== Mixed Effects for vm_upstroke ===
+                      Mixed Linear Model Regression Results
+=================================================================================
+Model:                     MixedLM        Dependent Variable:        vm_upstroke 
+No. Observations:          108            Method:                    REML        
+No. Groups:                15             Scale:                     4449094.6513
+Min. group size:           4              Log-Likelihood:            -976.1672   
+Max. group size:           8              Converged:                 Yes         
+Mean group size:           7.2                                                   
+---------------------------------------------------------------------------------
+                              Coef.     Std.Err.   z    P>|z|   [0.025    0.975] 
+---------------------------------------------------------------------------------
+Intercept                     11632.820 1034.275 11.247 0.000  9605.679 13659.961
+condition[T.Tac]                101.225  712.377  0.142 0.887 -1295.008  1497.457
+frequency                      -261.187   52.826 -4.944 0.000  -364.723  -157.651
+condition[T.Tac]:frequency      -15.438   77.646 -0.199 0.842  -167.621   136.745
+Group Var                  12506686.743 2515.215                                 
+=================================================================================
+
+
+=== Mixed Effects for vm_apd50_ms ===
+ERROR: Singular matrix
+
+=== Mixed Effects for vm_apd90_ms ===
+ERROR: Singular matrix
